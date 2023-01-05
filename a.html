@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>flex 经典布局</title>
+<style>
+html ,body{
+height: 100%;
+margin: 0;
+}
+.main {
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+.content {
+flex-grow: 1;
+display: flex
+}
+.header,.footer {
+width: 100%;
+height: 100px;
+background: blanchedalmond;
+}
+.left ,.right{
+width:200px;
+height: 100%;
+background-color: #29bd63;
+}
+.center {
+flex: 1;
+background-color: #94fa1a
+}
+</style>
+</head>
+<body>
+<div class='main'>
+<div class='header'></div>
+<div class='content'>
+<div class='left'></div>
+<div class='center'></div>
+<div class='right'></div>
+</div>
+<div class='footer'></div>
+</div>
+</body>

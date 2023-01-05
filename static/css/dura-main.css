@@ -1,6 +1,11 @@
-/* body {
-    background: url(../image/bg.jpg)
-} */
+html{
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 a,
 a:focus,
@@ -738,7 +743,7 @@ li.tabbed-mega {
 /* 950 */
 div.nav-container .navbar ul.nav>li>div.tabbed-mega-menu {
     position: absolute;
-    left: 15px;
+    /* left: 15px; */
     /* width: 1350px */
     width: 100%;
 }
@@ -1232,4 +1237,14 @@ i.search-close {
 .container-1380{
     max-width: 1380px;
     margin: 0 auto;
+}
+.container-main{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1380px;
+    /* margin-top: 72px; */
+    flex: 1;
 }
