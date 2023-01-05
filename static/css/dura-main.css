@@ -316,7 +316,7 @@ div.nav-container .navbar ul.nav>li>ul.dropdown-menu>li:last-child>a {
 
 div.nav-container .navbar ul.nav>li i.fa {
     width: 10px;
-    margin-right: 14px;
+    /* margin-right: 14px; */
     text-align: center
 }
 
@@ -864,11 +864,11 @@ div.nav-container .navbar ul.nav>li:hover div.tabbed-mega-menu div.active-tab-co
 
 .header-central-row>div>ul>li.dura-search .dropdown-menu-search {
     position: absolute;
-    right: 0;
+    right: 15px;
     top: 0;
-    width: 980px;
+    width: 1350px;
     height: 60px;
-    border: none
+    border: none;
 }
 
 .header-central-row>div>ul>li.dura-search .dropdown-menu-search form {
